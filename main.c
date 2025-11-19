@@ -1,30 +1,24 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
+    // Hardcoded numbers
+    int a = 10;
+    int b = 3;
 
-    // Input
-    printf("Enter first number: ");
-    scanf("%d", &a);
+    // Display numbers
+    printf("First number: 10\n");
+    printf("Second number: 3\n\n");
 
-    printf("Enter second number: ");
-    scanf("%d", &b);
-
-    // Calculations
-    int sum = a + b;
-    int difference = a - b;
-    int product = a * b;
-    int division = a / b;     // assumes b != 0
-    int modulus = a % b;      // assumes b != 0
-
-    // Output
-    printf("\nResults:\n");
-    printf("Addition: %d + %d = %d\n", a, b, sum);
-    printf("Subtraction: %d - %d = %d\n", a, b, difference);
-    printf("Multiplication: %d * %d = %d\n", a, b, product);
-    printf("Division: %d / %d = %d\n", a, b, division);
-    printf("Modulus: %d %% %d = %d\n", a, b, modulus);
+    // Display results of all operations
+    printf("Addition: 10 + 3 = 13\n");
+    printf("Subtraction: 10 - 3 = 7\n");
+    printf("Multiplication: 10 * 3 = 30\n");
+    printf("Division: 10 / 3 = 3\n");
+    printf("Modulus: 10 %% 3 = 1\n");
 
     return 0;
 }
+
+
+
 
